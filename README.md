@@ -7,4 +7,11 @@ En ce qui concerne le reseau , j'ai utilisé la fonction NMAP : qui est un scann
 
 J'ai installé une machine virtuelle windows server où j'ai crée un domaine nommé VERONIKA.LOCAL , et attribué l'adresse ip :  , ensuite j'ai crée un user : william.stephan ; Mot de passe : Bonjour33 
 
-Pour editer et intrepreter mon code j'ai eu besoin de visual studio code et de python . 
+Pour editer et interpreter mon code j'ai eu besoin de visual studio code , de python  . 
+
+EXPLICATION DU SCRIPT 
+
+- tout d'abord je vais specifier l'interpreteur que je vais executer ( python3) afin que le script s'execute rapidement  
+- on va definir une fonction principale où on va lister les options  et donner le choix à un utilisateur de choisir une lettre et lorqu'il va choisir une lettre  il sera redirigé vers une fonction 
+- afin de pouvoir utiliser la fonction nmap , on va devoir installer la librairie , j'ai mis vc ( pour scan )
+- on va demander à l'utilisateur de rentrer l'adresse ip , les ports 
