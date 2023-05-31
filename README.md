@@ -18,4 +18,7 @@ EXPLICATION DU SCRIPT
 
 la Deuxieme option du script est la detection de vulnerabilité , on aura besoin de la librairie OS ( system)  , on va utiliser le script vulscan , cette fonction sera executé lorque l'utilisateur choisira la lettre B : on rentre l'adresse IP et on pourra voir si il ya les vulnérabilités 
 
-pour l'exploitation , on va lancer metasploit , on va specifier que l'utilisateur ne devra rentrer que les valeurs mentionnées sinon cela ne fonctionnera pas . cette fonction sera exécuté lorque l'utilisateur entrera la lettre C 
+pour l'exploitation , on va lancer metasploit , on va specifier que l'utilisateur ne devra rentrer que les valeurs mentionnées sinon cela ne fonctionnera pas . cette fonction sera exécuté lorque l'utilisateur entrera la lettre C .
+
+SCRIPT2 
+celui nous permettra de verifier la disponibilité d'un domaine . nous allons avoir besoin de la librairie WWhois , l'utilsateur entrera un domaine et si il est disponible , cela marquera la disponibilité du domaine sinon il marquera domaine est dja utilisé . 
