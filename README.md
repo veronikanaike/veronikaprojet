@@ -18,4 +18,4 @@ EXPLICATION DU SCRIPT
 
 la Deuxieme option du script est la detection de vulnerabilité , on aura besoin de la librairie OS ( system)  , on va utiliser le script vulscan , cette fonction sera executé lorque l'utilisateur choisira la lettre B : on rentre l'adresse IP et on pourra voir si il ya les vulnérabilités 
 
-pour l'exploitation , on va lancer metasploit , on va specifier que l'utilisateur ne devra rentrer que les valeurs mentionnées sinon cela ne fonctionnera pas . 
+pour l'exploitation , on va lancer metasploit , on va specifier que l'utilisateur ne devra rentrer que les valeurs mentionnées sinon cela ne fonctionnera pas . cette fonction sera exécuté lorque l'utilisateur entrera la lettre C 
