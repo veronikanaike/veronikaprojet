@@ -21,4 +21,6 @@ la Deuxieme option du script est la detection de vulnerabilité , on aura besoin
 pour l'exploitation , on va lancer metasploit , on va specifier que l'utilisateur ne devra rentrer que les valeurs mentionnées sinon cela ne fonctionnera pas . cette fonction sera exécuté lorque l'utilisateur entrera la lettre C .
 
 SCRIPT2 
+
+
 celui nous permettra de verifier la disponibilité d'un domaine . nous allons avoir besoin de la librairie WWhois , l'utilsateur entrera un domaine et si il est disponible , cela marquera la disponibilité du domaine sinon il marquera domaine est dja utilisé . 
