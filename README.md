@@ -13,5 +13,9 @@ EXPLICATION DU SCRIPT
 
 - tout d'abord je vais specifier l'interpreteur que je vais executer ( python3) afin que le script s'execute rapidement  
 - on va definir une fonction principale où on va lister les options  et donner le choix à un utilisateur de choisir une lettre et lorqu'il va choisir une lettre  il sera redirigé vers une fonction 
-- afin de pouvoir utiliser la fonction nmap , on va devoir installer la librairie , j'ai mis vc ( pour scan )
-- on va demander à l'utilisateur de rentrer l'adresse ip , les ports 
+- afin de pouvoir utiliser la fonction nmap , on va devoir installer la librairie , ( j'ai rencontré des difficultés en voulant installé le module nmap, je l'ai installé plusieurs fois mais cela n,'a pas fonctionné )
+-  une fois que l'utilisateur choisira la lettre 'a' par exemple , on va demander à l'utilisateur de rentrer l'adresse ip , les ports et cela donnera les infos du scan et les ports ouverts . 
+
+la Deuxieme option du script est la detection de vulnerabilité , on aura besoin de la librairie OS ( system)  , on va utiliser le script vulscan , cette fonction sera executé lorque l'utilisateur choisira la lettre B : on rentre l'adresse IP et on pourra voir si il ya les vulnérabilités 
+
+pour l'exploitation , on va lancer metasploit , on va specifier que l'utilisateur ne devra rentrer que les valeurs mentionnées sinon cela ne fonctionnera pas . 
